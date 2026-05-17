@@ -1,0 +1,18 @@
+pip install flask
+    What it gives you
+        HTTP server
+        URL routing (@app.route)
+        HTML template rendering
+        JSON API endpoints
+
+pip install flask-socketio
+    Adds real-time WebSocket communication to Flask
+        Server <=> browser instant messaging
+        socketio.emit() and event handlers
+        Live updates without refreshing page
+
+pip install paho-mqtt
+    Connect to MQTT broker
+    Subscribe to topics
+    Receive IoT messages
+    Publish commands
